@@ -1,6 +1,6 @@
 # Modality Local Services
 
-This repository contains a Docker-based solution for running Postgres locally, as required by Modality. Install once, then start and stop as necessary during development. Additional notes are provided before for connecting a Postgres client directly to the database.
+This repository contains a Docker-based solution for running Postgres locally, as required by Modality. Install once, then start and stop as necessary during development. Additional notes are provided for connecting a Postgres client directly to the database.
 
 
 
@@ -10,8 +10,6 @@ Please install [Docker Desktop](https://www.docker.com/products/docker-desktop) 
 
 
 ### 2. Clone the repository
-Clone Modality Local Services via the terminal (or IntelliJ etc):
-
 ```shell
 mkdir -vp modality-local-services
 export MODALITY_LOCAL_SERVICES=${PWD}/modality-local-services
